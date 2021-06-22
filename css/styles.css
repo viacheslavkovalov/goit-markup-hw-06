@@ -892,14 +892,8 @@ ul {
 .checkbox:checked + .icon-check {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  /* background-size: contain;
-  background-origin: border-box; */
-}
-
-.checkbox:hover + .icon-check,
-.checkbox:focus + .icon-check {
-  outline: none;
-  border-color: var(--accent-color);
+  background-size: contain;
+  /* background-origin: border-box; */
 }
 
 .form-field.check .form-label {
